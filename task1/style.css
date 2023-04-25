@@ -1,0 +1,70 @@
+.container {
+  margin: 10vh;
+  text-align: center;
+  max-width: 100%;
+}
+
+table {
+  margin: auto;
+}
+
+button {
+  width: 100px;
+  height: 60px;
+  margin: 3px;
+  border-radius: 5px;
+  border: 1px solid #f1f3f4;
+  background-color: #c6c7c8;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+button:active {
+  border: 2px solid #dce5e9;
+}
+
+#input {
+  width: 55vh;
+  height: 77px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #9e9e9e;
+  font-size: 35px;
+  padding: 0px 10px;
+  text-align: right;
+}
+
+.btn {
+  background-color: #a2a3a4;
+}
+.resultbtn {
+  background-color: #8c42f4;
+  font-weight: 700;
+  color: white;
+}
+
+#backbtn {
+  background-color: #a2a3a4;
+  text-decoration-color: #dadce0;
+}
+
+@media screen and (max-width: 800px) {
+  button {
+    width: 15vw;
+    font-size: 4vw;
+  }
+  #input {
+    width: 61vw;
+  }
+  #h1 {
+    font-size: 6vw;
+  }
+
+  div #footer {
+    font-size: 2vw;
+  }
+}
+
+div #footer {
+  margin-top: 50px;
+}

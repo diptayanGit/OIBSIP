@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-wid startth, initial-scale=1">
+    <title>TODO </title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; background-color: rgba(254, 253, 251, 0.17);"> To do list</h1>
+    <div class="box">
+        <header id="form">
+            <div class="row1">
+                <label>TITLE</label>
+                <input type="text" class="item" id="item" placeholder="Write something here...">
+            </div>
+
+            <div class="row2">
+                <label>DESCRIPTION</label>
+                <textarea type="text" class="des" id="description" placeholder="Describe here..."></textarea>
+            </div>
+
+            <button onclick="addele()" class="button-29">Add</button>
+        </header>
+
+        <section class="taskform ">
+            <h2
+                style="text-align: center;background-color: rgba(249, 72, 2, 0.078); border-radius: 500px;width:60%;margin: auto;">
+                Task</h2>
+            <ul id="tasklist">
+                <li id="notask" style="height:10em;width:90%;">
+                    <p
+                        style="color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        CURRENTLY NO TASK IS AVAILABLE</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+
+    <script src="todo.js"></script>
+</body>
